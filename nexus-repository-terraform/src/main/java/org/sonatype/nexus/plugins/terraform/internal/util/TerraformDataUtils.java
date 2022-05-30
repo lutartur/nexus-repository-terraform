@@ -32,7 +32,7 @@ public class TerraformDataUtils
 
   public TerraformDataUtils() {
     getPlatformMap().put("linux", new String[] {"amd64", "arm"});
-    getPlatformMap().put("darwin", new String[] {"amd64"});
+    getPlatformMap().put("darwin", new String[] {"amd64", "arm64"});
     getPlatformMap().put("windows", new String[] {"amd64"});
 
     SimpleModule module = new SimpleModule();
